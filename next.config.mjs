@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  basePath: '/qrcel',
   eslint: {
     ignoreDuringBuilds: true,
   },
